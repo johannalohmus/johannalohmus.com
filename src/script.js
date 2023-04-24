@@ -22,9 +22,9 @@ scene.add(torus);
 function animate()
 {
   requestAnimationFrame(animate);
-  torus.rotation.x += 0.1;
-  torus.rotation.y += 0.1;
-  torus.rotation.z += 0.1;
+  torus.rotation.x += 0.5;
+  torus.rotation.y += 0.5;
+  torus.rotation.z += 0.5;
   renderer.render(scene, camera);
 }
 
