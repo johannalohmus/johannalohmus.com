@@ -12,12 +12,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!--<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
   </head>
   <body>
     <script type="module" src="./script.js"></script>
     <nav>
       <ul>
-        <li class="nav-logo"><a href="default.asp">LOGO</a></li>
+        <li class="nav-logo"><a href="default.asp"><span style="color: #F8095F">LOGO</span></a></li>
         <li><a href="default.asp">CONTACT</a></li>
         <li><a href="news.asp">ABOUT ME</a></li>
         <li><a href="contact.asp">RESUME</a></li>
@@ -32,15 +33,67 @@
             <img class="wave-img" src="waving.png"> 
           </div>
           <br>
-          <h2 class="splash-text large"> I'm Johanna.</h2>
+          <h2 class="splash-text large"> I'm <span style="color: #F8095F">Johanna.</span></h2>
           <h4 class="splash-text small">I’m a UI/UX Designer and Web Developer from McLean, VA.</h4>
-          <button class="splash-button" type="button">Let's chat!</button>
+          <button class="button contact-button" type="button">Let's chat!</button>
         </div>
         <div class="splash-right">
           <img class="splash-image" src="hiking.jpeg" width="100%">
         </div>
       </div>
     </div>
-    <h3>My work</h3>
+
+    <div class="my-work">
+      <h2 class="splash-text small my-work-header">My Work</h2>
+      <div class="project-container brave-container">
+        <div class="project-left">
+          <h2 class="project-text-large brave-project-text-large">BRAVE VIRTUAL</h2>
+          <h4 class="project-text-small brave-project-text-small">Designing the app for a 4D Motion Capture system for sports analysis and assessments. </h4>
+          <button class="button project-button brave-project-button" type="button">Coming Soon</button>
+        </div>
+        <div class="project-right">
+          <img class="project-image brave-image" src="braveuxcase.png" width="100%">
+        </div>
+      </div>
+
+      <div class="project-container">
+        <div class="project-right">
+          <img class="project-image" src="hiking.jpeg" width="100%">
+        </div>
+        <div class="project-left switch-side">
+          <h2 class="project-text-large">SCHOOLOGY REDESIGN</h2>
+          <h4 class="project-text-small">Redesigning a learning management system's user interface.</h4>
+          <button class="button project-button" type="button">Coming Soon</button>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <div class="project-left">
+          <h2 class="project-text-large">FAIRLINGTON CAN</h2>
+          <h4 class="project-text-small">Designing the interface of a website dedicated to teaching sustainable practices.</h4>
+          <button class="button project-button" type="button">Coming Soon</button>
+        </div>
+        <div class="project-right">
+          <img class="project-image" src="hiking.jpeg" width="100%">
+        </div>
+      </div>
+
+      <div class="project-container">
+        <div class="project-right">
+          <img class="project-image" src="hiking.jpeg" width="100%">
+        </div>
+        <div class="project-left switch-side">
+          <h2 class="project-text-large">PLANIT</h2>
+          <h4 class="project-text-small">Designing an AI-powered hangout planner.</h4>
+          <button class="button project-button" type="button">Coming Soon</button>
+        </div>
+      </div>
+
+      <!-- Remove after adding contacts -->
+      <br>
+      <br>
+      <br>
+      
+    </div>
   </body>
 </html>

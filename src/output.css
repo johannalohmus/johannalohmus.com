@@ -524,8 +524,8 @@ video {
 
 body
 {
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
   padding: 0;
   border: 0;
   font-family: 'DM Sans', sans-serif;
@@ -565,6 +565,10 @@ li a:hover {
 }
 
 .page-hero {
+  height: 90vh;
+}
+
+.my-work {
   height: 100vh;
 }
 
@@ -583,6 +587,8 @@ li a:hover {
 {
   max-width:100%;
   border-radius:20px;
+  width:50vw;
+  height:50vh;
 }
 
 .splash-left
@@ -607,25 +613,26 @@ li a:hover {
 .large
 {
   display: inline;
+  font-size: 2.8vw;
 }
 
 .small
 {
-  font-size:2.4vw;
+  font-size:2.0vw;
   padding-top: 1vh;
   padding-bottom:1vh;
 }
 
-.splash-button {
+.button {
   background-color: #AAA;
   border: none;
   color: white;
-  padding: 1vh 3vw;
+  padding: 1.3vh 2.5vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 2.0vw;
-  border-radius: 15px;
+  font-size: 1.2vw;
+  border-radius: 10px;
 }
 
 .greeting-text
@@ -641,3 +648,77 @@ li a:hover {
   width:3.2vw;
 }
 
+.project-container
+{
+  position: relative;
+  z-index: 3;
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 1112px;
+  margin-bottom: 6vh;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: center;
+  border-radius: 20px;
+  transition: height .2s, width .2s;
+  padding-right: 10%;
+  padding-left: 5%;
+  background-color: #ccc;
+  color:#fff;
+  position: relative;
+}
+
+.project-text-large
+{
+  font-size: 2.0vw;
+  font-family: 'Bowlby One', cursive;
+}
+
+.project-text-small {
+  padding-bottom:3%;
+  padding-top:3%;
+  font-size: 1.2vw;
+}
+
+.project-left
+{
+  padding-bottom:7%;
+  padding-right:5%;
+  flex-basis: 40%;
+}
+
+.project-image
+{
+  width:30vw;
+  height:30vw;
+}
+
+.project-button
+{
+  margin-top:2%;
+  color:white;
+  background-color:rgb(0 0 0 / 0.3)
+}
+
+.contact-button
+{
+  background-color: #F8095F
+}
+
+.switch-side
+{
+  padding-left: 5%;
+  flex-basis: 50%;
+}
+
+.brave-container
+{
+  background-color:#0D345A;
+}
+
+.my-work-header
+{
+  padding-bottom:5%;
+}
