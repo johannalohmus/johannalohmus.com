@@ -3,13 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-      <link href="/style.css" rel="stylesheet" type="text/css" />
+    <link href="./dist/output.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Johanna Lohmus</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400" rel="stylesheet">
   </head>
   <body>
     <script type="module" src="./script.js"></script>
-    <canvas class="webgl"></canvas>
+    <nav>
+      <ul>
+        <li class="nav-logo"><a href="default.asp">LOGO</a></li>
+        <li><a href="default.asp">CONTACT</a></li>
+        <li><a href="news.asp">ABOUT ME</a></li>
+        <li><a href="contact.asp">RESUME</a></li>
+        <li><a href="about.asp">WORK</a></li>
+      </ul>
+    </nav>
+    <div class="page-hero">
+      <div class="splash-container">
+        <div class="splash-left">
+          <div class="greeting-text">
+            <h2 class="splash-text large">Hey!</h2>
+            <img class="wave-img" src="waving.png"> 
+          </div>
+          <br>
+          <h2 class="splash-text large"> I'm Johanna.</h2>
+          <h4 class="splash-text small">I’m a UI/UX Designer and Web Developer from McLean, VA.</h4>
+          <button class="splash-button" type="button">Let's chat!</button>
+        </div>
+        <div class="splash-right">
+          <img class="splash-image" src="hiking.jpeg" width="100%">
+        </div>
+      </div>
+    </div>
+    <h3>My work</h3>
   </body>
 </html>

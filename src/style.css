@@ -1,11 +1,93 @@
-.spinning-torus-text
-{
-    color:white;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body
 {
-    margin: 0;
+    margin-left: 10vw;
+    margin-right: 10vw;
     padding: 0;
     border: 0;
+    font-family: 'DM Sans', sans-serif;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    text-decoration: underline;
+}
+
+.nav-logo
+{
+    float: left;
+}
+
+.page-hero {
+    top: 50%, translateY(-50%);
+    height: 100vh;
+}
+
+.splash-container
+{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-weight:normal;
+    margin-top: 10%;
+}
+
+.splash-image
+{
+    max-width:100%;
+}
+
+.splash-left
+{
+    font-size: 2.4vw;
+    flex-basis:45%;
+}
+
+.splash-right
+{
+    padding-left:3%;
+    flex-basis:50%;
+}
+
+.splash-text
+{
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+.splash-button {
+    background-color: #423929;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
