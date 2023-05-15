@@ -45,6 +45,19 @@ function addStar()
   scene.add(star);
 }
 
+const moonTexture = new THREE.TextureLoader().load('moon.jpg');
+const normalTexture = new THREE.TextureLoader().load('normal.jpg');
+
+const moon = new THREE.Mesh(
+  new THREE.SphereGeometry(3, 3, 32),
+  new THREE.MeshStandardMaterial({
+    map: moonTexture,
+    normalMap: normalTexture
+  })
+);
+
+scene.add(moon);
+
 Array(200).fill().forEach(addStar);
 
 function animate()
