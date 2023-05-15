@@ -715,36 +715,44 @@ li a:hover {
 .brave-container
 {
   background-color:#0D345A;
+  transition: 0.2s ease;
 }
 
 .brave-container:hover
 {
   background-color: rgb(13 52 90 / 0.95);
+  transition: 0.2s ease;
 }
 
 .schoology-container {
   background-color: #519EB7;
+  transition: 0.2s ease;
 }
 
 .schoology-container:hover {
   background-color: rgb(81 158 183 / 0.9);
+  transition: 0.2s ease;
 }
 
 .can-container
 {
   background-color:#DC4D20;
+  transition: 0.2s ease;
 }
 
 .can-container:hover {
   background-color: rgb(220 77 32 / 0.9);
+  transition: 0.2s ease;
 }
 
 .planit-container {
   background-color: #DE547E;
+  transition: 0.2s ease;
 }
 
 .planit-container:hover {
   background-color: rgb(222 84 126 / 0.9);
+  transition: 0.2s ease;
 }
 
 .my-work-header
