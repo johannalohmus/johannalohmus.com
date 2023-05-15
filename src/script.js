@@ -45,7 +45,7 @@ function addStar()
   scene.add(star);
 }
 
-const moonTexture = new THREE.TextureLoader().load('/src/moon.jpg');
+const moonTexture = new THREE.TextureLoader().load('johannalohmus.com/src/moon.jpg');
 const normalTexture = new THREE.TextureLoader().load('../normal.jpg');
 
 const moon = new THREE.Mesh(
