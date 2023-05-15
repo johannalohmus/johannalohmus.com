@@ -37,9 +37,9 @@ const controls = new OrbitControls(camera, renderer.domElement);
 function animate()
 {
   requestAnimationFrame(animate);
-  torus.rotation.x += 0.2;
-  torus.rotation.y += 0.2;
-  torus.rotation.z += 0.1;
+  torus.rotation.x += 0.02;
+  torus.rotation.y += 0.02;
+  torus.rotation.z += 0.01;
 
   controls.update();
 
